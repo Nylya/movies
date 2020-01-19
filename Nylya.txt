@@ -1,0 +1,19 @@
+import java.util.*;
+
+class movies
+{
+public static void main(String args[])
+{
+Scanner sc= new Scanner(System.in)
+
+System.out.println("Enter the number of movies");
+b=in.nextInt();
+in.nextLine();
+String s[]=new String[b];
+
+for(i=0;i<b;i++)
+{
+System.out.println("Enter the movie name");
+s[i]=i.nextLine();
+System.out.println("movies are"+s[i]);
+}
